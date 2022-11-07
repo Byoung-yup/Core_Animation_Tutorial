@@ -13,6 +13,7 @@
 		345B3FCC2918E50E00E7D606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345B3FCA2918E50E00E7D606 /* Main.storyboard */; };
 		345B3FCE2918E51100E7D606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345B3FCD2918E51100E7D606 /* Assets.xcassets */; };
 		345B3FD12918E51100E7D606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345B3FCF2918E51100E7D606 /* LaunchScreen.storyboard */; };
+		345B3FD92918F0AB00E7D606 /* CountdownProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345B3FD82918F0AA00E7D606 /* CountdownProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		345B3FCD2918E51100E7D606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345B3FD02918E51100E7D606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		345B3FD22918E51100E7D606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345B3FD82918F0AA00E7D606 /* CountdownProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				345B3FC42918E50E00E7D606 /* AppDelegate.swift */,
 				345B3FC62918E50E00E7D606 /* SceneDelegate.swift */,
 				345B3FC82918E50E00E7D606 /* ViewController.swift */,
+				345B3FD82918F0AA00E7D606 /* CountdownProgressBar.swift */,
 				345B3FCA2918E50E00E7D606 /* Main.storyboard */,
 				345B3FCD2918E51100E7D606 /* Assets.xcassets */,
 				345B3FCF2918E51100E7D606 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345B3FD92918F0AB00E7D606 /* CountdownProgressBar.swift in Sources */,
 				345B3FC92918E50E00E7D606 /* ViewController.swift in Sources */,
 				345B3FC52918E50E00E7D606 /* AppDelegate.swift in Sources */,
 				345B3FC72918E50E00E7D606 /* SceneDelegate.swift in Sources */,
